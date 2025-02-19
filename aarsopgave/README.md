@@ -17,6 +17,7 @@ Repo: https://github.com/kirkby/prog-2g/tree/main/aarsopgave
 
 - [ ] Opret en mappe ved navn "aarsopgave" der hvor du har din kode.
 - [ ] Hent filerne fra repo'et og læg dem i den nye mappe
+- [ ] Åben VS Code (Nuf)
 - [ ] Vælg File->Open Folder og tilføj mappen "aarsopgave"
 - [ ] Vælg File->Save workspace og giv den navnet "aarsopgave"
 - [ ] Kontroller af koden fungerer
