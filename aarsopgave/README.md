@@ -13,7 +13,7 @@ Læs disse punkter **grundigt** før du går i gang
 - Gem kun kode der fungerer i github
 
 ## Forberedelser 
-Repo: https://github.com/kirkby/progb/tree/main/aarsopgave
+Repo: https://github.com/kirkby/prog-2g/tree/main/aarsopgave
 
 - [ ] Opret en mappe ved navn "aarsopgave" der hvor du har din kode.
 - [ ] Hent filerne fra repo'et og læg dem i den nye mappe
