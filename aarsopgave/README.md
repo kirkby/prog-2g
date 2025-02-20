@@ -70,6 +70,23 @@ Lav en metode i `shopping_list` som udskriver det samlede beløb for alle varer 
 Test det med at oprette en instans af objektet `shopping_list` og udskriv listen af produkter med ID.
 
 ## Opgave E
+Lav en menu i jeres main.py. Giv brugeren mulighed for at vælge hvilken funktion han vil bruge.
+
+```
+>python3 main.py
+Annas indkøbsliste
+MENU (vælg 1-5)
+(1) Tilføj produkt til indkøbsliste
+(2) Slet produkt fra indkøbsliste
+(3) Udskriv indkøbsliste
+(4) Tilføj produkt til prisliste
+(5) Gem prisliste til fil
+(osv.)
+(Q) Quit
+```
+
+
+## Opgave F
 Lad klassen `price_list` hente prislisten fra nettet, fx herfra:
 curl https://kirkby.github.io/price_list.json
 
@@ -88,7 +105,7 @@ Tip: kik i de gamle eksempler og find en løsning på hvordan man requester data
 
 Bemærk: denne liste har ikke produkt-id'er. Hvad gør vi så?
 
-## Opgave F
+## Opgave G
 Har du mere tid?  
 Giv din app en grænseflade med `tkinter`.  
 Mere info følger.  
