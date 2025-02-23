@@ -49,7 +49,9 @@ Denne klasse håndterer en indkøbsliste af produkter.
 Lav en ny udgave af `shopping_list` som tilføjer antal, således
 at man angive flere af samme produkt, fx 2 Boosters.
 
-Test det med at oprette en instans af objektet `shopping_list` og udskriv listen af produkter.
+Tip: skift datatype for listen `items` i klassen shopping_list fra "liste" [] (list) til "opslagsliste" {} (dictionary)
+
+Test det med at oprette en instans af objektet `shopping_list` og test alle dens metoder (add(), remove(), get_items())
 
 ## Opgave B
 Tilføj et produkt ID til `price_list` så hvert produkt har et unikt id.
