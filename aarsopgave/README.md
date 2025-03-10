@@ -49,25 +49,37 @@ Denne klasse håndterer en indkøbsliste af produkter.
 Lav en ny udgave af `shopping_list` som tilføjer antal, således
 at man angive flere af samme produkt, fx 2 Boosters.
 
-Tip: skift datatype for listen `items` i klassen shopping_list fra "liste" [] (list) til "opslagsliste" {} (dictionary)
+:information_source: Tip: skift datatype for listen `items` i klassen `shopping_list` fra "liste" [] (list) til "opslagsliste" {} (dictionary)
 
-Test det med at oprette en instans af objektet `shopping_list` og test alle dens metoder (add(), remove(), get_items())
+Test det med at oprette en instans af objektet `shopping_list` og test alle dens metoder - `add()`, `remove()`, `get_items()` 
 
 ## Opgave B
 Tilføj et produkt ID til `price_list` så hvert produkt har et unikt id.
 
-Tip: brug en id som er "læselig" tekst, fx "BOOST" for Booster og "BIGM" for Big Mac Menu.
-Tip: opdater klassen price_list og datafilen.
-
+:information_source: Tip: brug en id som er "læselig" tekst, fx "BOOST" for Booster og "BIGM" for Big Mac Menu.  
+:information_source:Tip: opdater klassen price_list og datafilen, brug en dictionary.  
+:information_source:Tip: fx dictionary med denne struktur
+```
+{'BOOST': {product:'Booster','price':25}}
+```
+  
 Test det med at oprette en instans af objektet `price_list` og udskriv listen af produkter med ID.
 
 ## Opgave C
 Byg klassen `price_list` ind i klassen `shopping_list` så denne klasse selv kan beregne priser. Håndter den situation hvor varen ikke er på prislisten.
 
+:information_source: Tip: klassen `shopping_list` skal have en attribut som instantierer `price_list`, og kan beregne prisen.
+
+```
+# Her kommer et eksempel.
+```
+
 Test det med at oprette en instans af objektet `shopping_list` og udskriv listen af produkter med priser.
 
 ## Opgave D
 Lav en metode i `shopping_list` som udskriver det samlede beløb for alle varer på listen.
+
+:information_source: Tip: TODO
 
 Test det med at oprette en instans af objektet `shopping_list` og udskriv listen af produkter med ID.
 
@@ -87,6 +99,7 @@ MENU (vælg 1-5)
 (Q) Quit
 ```
 
+:information_source: Tip: Se tidligere opgaver hvordan man laver en menu.
 
 ## Opgave F
 Lad klassen `price_list` hente prislisten fra nettet, fx herfra:

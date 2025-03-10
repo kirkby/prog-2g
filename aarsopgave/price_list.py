@@ -44,7 +44,11 @@ class PriceList:
         """
         with open(os.path.join(self.current_dir, filename), mode="r") as file:
             reader = csv.reader(file)
-            self.pricelist = {rows[0]: float(rows[1]) for rows in reader}
+            # Dictionary comprehension to load pricelist:
+            # self.pricelist = {rows[0]: float(rows[1]) for rows in reader}
+            # Alternative way to load pricelist:
+            for rows in reader:
+                self.pricelist[rows[0]] = {'product': rows[1], 'price':float(rows[2])}
 
     def save_pricelist(self, filename):
         """
