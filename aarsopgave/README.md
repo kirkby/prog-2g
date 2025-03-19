@@ -54,24 +54,28 @@ at man angive flere af samme produkt, fx 2 Boosters.
 Test det med at oprette en instans af objektet `shopping_list` og test alle dens metoder - `add()`, `remove()`, `get_items()` 
 
 ## Opgave B
-Tilføj et produkt ID til `price_list` så hvert produkt har et unikt id.
+Tilføj en produktbeskrivelse til hvert produkt på `price_list`.
 
-:information_source: Tip: brug en id som er "læselig" tekst, fx "BOOST" for Booster og "BIGM" for Big Mac Menu.  
 :information_source:Tip: opdater klassen price_list og datafilen, brug en dictionary.  
 :information_source:Tip: fx dictionary med denne struktur
 ```
-{'BOOST': {product:'Booster','price':25}}
+{'Booster': {descriptions:'Kongen af energidrikke','price':25}}
 ```
   
-Test det med at oprette en instans af objektet `price_list` og udskriv listen af produkter med ID.
+Test det med at oprette en instans af objektet `price_list` og udskriv listen af produkter med pris og beskrivelse.
 
 ## Opgave C
 Byg klassen `price_list` ind i klassen `shopping_list` så denne klasse selv kan beregne priser. Håndter den situation hvor varen ikke er på prislisten.
 
-:information_source: Tip: klassen `shopping_list` skal have en attribut som instantierer `price_list`, og kan beregne prisen.
+:information_source: Tip: klassen `shopping_list` skal have en variabel som er en instans af `price_list`.
+Lav en metode som looper gennem alle varer på shoppinglisten, og for hvert enkelt vare henter prisen i prislisten.
+Brug metoden `get_price` i `price_list` til at hente prisen for hvert enkelt vare.
+Loop gennem alle varer og udskriv prisen.
 
 ```
-# Her kommer et eksempel.
+def __init__(self):
+        self.items = []
+        self.price_list = PriceList()
 ```
 
 Test det med at oprette en instans af objektet `shopping_list` og udskriv listen af produkter med priser.
@@ -79,9 +83,15 @@ Test det med at oprette en instans af objektet `shopping_list` og udskriv listen
 ## Opgave D
 Lav en metode i `shopping_list` som udskriver det samlede beløb for alle varer på listen.
 
-:information_source: Tip: TODO
+:information_source: Tip: Loop gennem listen og lægge alle beløbene sammen. 
+```
+def __init__(self):
+        self.items = []
+        self.price_list = PriceList()
+```
 
-Test det med at oprette en instans af objektet `shopping_list` og udskriv listen af produkter med ID.
+
+Test det med at udskrive det samlede beløb for alle varer på indkøbslisten.
 
 ## Opgave E
 Lav en menu i jeres main.py. Giv brugeren mulighed for at vælge hvilken funktion han vil bruge.
@@ -116,11 +126,12 @@ mkm@MacBookAir ~ % curl -s https://kirkby.github.io/price_list.json
 }%  
 ```
 
-Tip: kik i de gamle eksempler og find en løsning på hvordan man requester data fra et api.
+Tip: kig i de gamle eksempler og find en løsning på hvordan man requester data fra et api.
 
-Bemærk: denne liste har ikke produkt-id'er. Hvad gør vi så?
+
+Bemærk: denne liste har ikke produktbeskrivelser. Hvad gør vi så? Kan man lægge det på sit egen github?
 
 ## Opgave G
 Har du mere tid?  
 Giv din app en grænseflade med `tkinter`.  
-Mere info følger.  
+
