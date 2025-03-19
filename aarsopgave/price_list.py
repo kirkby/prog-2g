@@ -46,9 +46,9 @@ class PriceList:
             reader = csv.reader(file)
             # Dictionary comprehension to load pricelist:
             # self.pricelist = {rows[0]: float(rows[1]) for rows in reader}
-            # Alternative way to load pricelist:
+            # Alternative way to load pricelist (with product description):
             for rows in reader:
-                self.pricelist[rows[0]] = {'product': rows[1], 'price':float(rows[2])}
+                self.pricelist[rows[0].strip()] = {'description': rows[1].strip(), 'price':float(rows[2])}
 
     def save_pricelist(self, filename):
         """
@@ -59,8 +59,8 @@ class PriceList:
         """
         with open(os.path.join(self.current_dir, filename), mode="w") as file:
             writer = csv.writer(file)
-            for product, price in self.pricelist.items():
-                writer.writerow([product, price])
+            for product, item in self.pricelist.items():
+                writer.writerow([product, item['id'], item['price']])
 
     def get_price(self, product):
         """
@@ -72,7 +72,8 @@ class PriceList:
         Returns:
             float: The price of the product, or None if the product is not found.
         """
-        return self.pricelist.get(product, None)
+        if product in self.pricelist:
+            return self.pricelist[product]['price']
 
     def set_price(self, product, price):
         """
@@ -96,4 +97,16 @@ class PriceList:
 # Example usage:
 if __name__ == "__main__":
     price_list = PriceList()
-    print(price_list.get_pricelist())
+    # for product, info in price_list.get_pricelist().items():
+    #     print(f"{product}: {info['description']}")
+    
+    # get_price() example:
+    product = "Booster"
+    price = price_list.get_price(product)
+    if price is None:
+        print(f"The price of {product} is not found")
+    else:
+        print(f"The price of {product} is {price}")
+    # Add a new product to the pricelist:
+
+
