@@ -1,5 +1,9 @@
 # TEMPLATE Synopsis
+
+
 Dette er en synopsis-skabelon som du kan bruge til din aflevering.
+
+
 
 Ifølge [lærebogen kap. 5.6](https://programmering.systime.dk/?id=200) indeholder en synopsis:
 
@@ -19,6 +23,7 @@ Ifølge [lærebogen kap. 5.6](https://programmering.systime.dk/?id=200) indehold
 | Konklusion         | Opfølgning på problemformuleringen og mangler          |
 | Bilag              | Samtlig kode, problemtræer, data med mere              |
 
+## Gruppemedlemmer
 
 ## Projektbeskrivelse
 Projektets titel er [titel].
