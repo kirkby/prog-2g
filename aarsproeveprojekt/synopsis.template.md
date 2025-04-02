@@ -31,7 +31,24 @@ Projektets titel er [titel].
 
 ## Dokumentation
 
+### Kravspecifikation
+
+Giv baggrund for prioriteringer.
+
+| titel   | beskrivelse                                      | prioritet    |
+|---------|--------------------------------------------------|--------------|
+| menu    | en menu der giver brugeren 3 muligheder ...      | need-to-have |
+| søgning | en søgninger der giver brugeren 3 muligheder ... | need-to-have |
+| splash screen | en skærm der vises når appen åbnes ...     | nice-to-have |
+
 ### Kort programbeskrivelse med diagrammer
+To slags flowcharts. 
+
+- Algoritme eller logisk flowchart
+- use-case/brugerrejse over funktionalitet
+
+
+
 
 ### Rolle-fordeling (arbejdsfordeling)
 Redegørelse for arbejdsfordelingen i gruppen.
