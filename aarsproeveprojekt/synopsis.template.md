@@ -1,39 +1,22 @@
-(medlem1, medlem 2)
-
-# TEMPLATE Synopsis
-
-
 Dette er en synopsis-skabelon som du kan bruge til din aflevering.
 
-
-
-Ifølge [lærebogen kap. 5.6](https://programmering.systime.dk/?id=200) indeholder en synopsis:
-
-
-| Indhold            | Beskrivelse                                            |
-|--------------------|--------------------------------------------------------|
-| Forside            | Titel, projektdeltagere, dato med mere                 |
-| Resume             | Projektets indhold i kort form                         |
-| Problemformulering | Hvilket problem løses med programmet?                  |
-| Programbeskrivelse | Overordnet tekstuel beskrivelse af programmet          |
-| Funktionalitet     | Kravspecifikation, brugsmønster eller lign.            |
-| Brugergrænseflader | Skitser/prototyper og interaktionsmuligheder           |
-| Rutediagrammer     | Visuel repræsentation af udvalgte programdele          |
-| Pseudokode         | Tekstrepræsentation af udvalgte programdele            |
-| Udvalgt kode       | Beskrivelse af variabler, objekter, hændelser og lign. |
-| Test af programmet | Dokumentation af programmets afprøvning                |
-| Konklusion         | Opfølgning på problemformuleringen og mangler          |
-| Bilag              | Samtlig kode, problemtræer, data med mere              |
-
+# Synopsis
+Dette er årsprøveprojektet i programmering B.
+Projektets titel er [titel].
+Udarbejdet af [navn1] og [navn2].
 
 ## Projektbeskrivelse
-Projektets titel er [titel].
+Her indsætter I den foreløbige, godkendte projektbeskrivelse.
 
-## Dokumentation
+## Kravspecifikation
+Lav en kravspecifikation i tabelform som specificerer programmets funktionalitet.
+Gør det gerne i tabelform. Man kan bruge [Markdown Table Generator](https://www.tablesgenerator.com/markdown_tables) til formålet.
 
-### Kravspecifikation
+Husk at krav skale være målelige, præcise og tage udgangspunkt projektbeskrevelsen.
 
-Giv baggrund for prioriteringer.
+Opdel gerne kravene i to bunker: minimumkrav (hårde krav, need-to-have, MVP) og almindelige krav (nice-to-have).
+
+Eksempel:
 
 | titel   | beskrivelse                                      | prioritet    |
 |---------|--------------------------------------------------|--------------|
@@ -41,22 +24,20 @@ Giv baggrund for prioriteringer.
 | søgning | en søgninger der giver brugeren 3 muligheder ... | need-to-have |
 | splash screen | en skærm der vises når appen åbnes ...     | nice-to-have |
 
-### Kort programbeskrivelse med diagrammer
-To slags flowcharts. 
+Begrund dine prioriteringer med lidt tekst som forklarer hvorfor de er vigtige.
 
-- Algoritme eller logisk flowchart
-- use-case/brugerrejse over funktionalitet
+## Programbeskrivelse med rutediagrammer
+Skriv en kort programbeskrivelse her.
 
+Lav et rutediagram som beskriver hvordan den centrale del af programmet er opbygget.
 
-
-
-### Rolle-fordeling (arbejdsfordeling)
+## Rolle-fordeling (arbejdsfordeling)
 Redegørelse for arbejdsfordelingen i gruppen.
 
-### Kilder og ressourcer
+## Kilder og ressourcer
 Redegørelse for brug af eksterne ressourcer og kilder.
 
-### Brug af AI
+## Brug af AI
 Redegørelse for brug af AI.
 
 ## Evaluering og vurdering
