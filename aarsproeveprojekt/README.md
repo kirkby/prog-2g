@@ -32,7 +32,7 @@ Synopsisen i README.md skal indeholde:
 - Titel
 - Kort, godkendt projektbeskrivelse
 - Kravspecifikation
-- Pogrambeskrivelse med rutediagrammer
+- Programbeskrivelse med rutediagrammer
 - Rolle-fordeling (arbejdsfordeling) i gruppen
 - Kilder og ressourcer
 - Redegørelse for brug af AI
