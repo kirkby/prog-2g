@@ -10,7 +10,7 @@ Her indsætter I den foreløbige, godkendte projektbeskrivelse.
 
 ## Kravspecifikation
 Lav en kravspecifikation i tabelform som specificerer programmets funktionalitet.
-Gør det gerne i tabelform. Man kan bruge [Markdown Table Generator](https://www.tablesgenerator.com/markdown_tables) til formålet.
+Gør det gerne i tabelform. Man kan bruge [Markdown Table Generator](https://www.tablesgenerator.com/markdown_tables) til formålet. Tip: Brug File->Paste Table Data
 
 Husk at krav skale være målelige, præcise og tage udgangspunkt projektbeskrevelsen.
 
